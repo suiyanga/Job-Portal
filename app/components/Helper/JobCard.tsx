@@ -2,7 +2,7 @@ import { Job } from '@/data';
 import Image from 'next/image';
 import React from 'react';
 import { BiMoney } from 'react-icons/bi';
-import { FaMapLocation } from 'react-icons/fa6';
+import { FaMapLocation, FaRegBookmark } from 'react-icons/fa6';
 
 interface Props {
     job:Job;
@@ -14,11 +14,11 @@ const JobCard = ({job}:Props) => {
      transition-all duration-300 border-gray-500 rounded-lg border-opacity-10">
         <div className="flex items-center space-x-6">
           <div>
-          <Image src={job?.image} alt={job.title} width={50} height={50} />
+          <Image src={job?.image} alt={job?.title} width={50} height={50} />
           </div> 
           <div>
-            <h1 className="text-[17px] font-semibold mb-[0.4rem]"> 
-                {job.title} 
+            <h1 className="lg:text-[17px] sm:text-[15px] font-semibold mb-[0.4rem]"> 
+                {job?.title} 
                 </h1>
                 <div className="flex items-center md:space-x-10 space-x-4 ">
                     <div className="flex items-center space-x-2 ">
@@ -46,8 +46,11 @@ const JobCard = ({job}:Props) => {
                     </div>
           </div>
         </div>
+      <div className="absolute top-[1rem] right-[1rem]">
+        <FaRegBookmark className="w-[1rem] h-[1rem]" />
+        </div>        
     </div>
-  )
-}
+  );
+};
 
 export default JobCard;

@@ -14,7 +14,7 @@ const JobCategoryCard = ({category, image, openPosition}:Props) => {
         <div className="flex items-center space-x-4">
             <Image src={image} alt={category} width={60} height={60} />
             <div>
-                <h1 className="text-[17px] font-semibold mb-[0.4rem]">{category}</h1>
+                <h1 className="lg:text-[17px] sm:text-[15px] font-semibold mb-[0.4rem]">{category}</h1>
                 <p className="text-[14px] text-black font-semibold text-opacity-50">{openPosition} open positions</p>
             </div>
         </div>

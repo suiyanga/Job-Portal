@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoImage from '@/public/images/merit1.svg'
+import LogoImage from '@/public/images/merit.svg'
 import Link from 'next/link';
 import Image from 'next/image';
 import { getServerSession } from 'next-auth';
