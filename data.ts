@@ -37,7 +37,7 @@ export interface Job {
       title: "GPU Engineer",
       image: "/images/nvidia.svg",
       salary: "85k - 90k",
-      location: "Arlington",
+      location: "Abuja",
       jobtype: "Senior",
     },
     {
