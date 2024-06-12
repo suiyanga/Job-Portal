@@ -31,15 +31,15 @@ const JobCard = ({job}:Props) => {
                     </div>
                 </div>
                 <div className="flex items-center space-x-2 sm:space-x-4 mt-[1rem]">
-                    <div className="text-[8px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
+                    <div className="text-[10px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
                      rounded-full bg-opacity-30 font-semibold capitalize bg-teal-600">
                         {job?.jobtype}
                         </div>
-                        <div className="text-[8px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
+                        <div className="text-[10px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
                      rounded-full bg-opacity-30 font-semibold capitalize bg-red-400">
                         Private
                         </div>
-                        <div className="text-[8px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
+                        <div className="text-[10px] sm:text-[12px] text-black text-opacity-80 px-3 sm:px-6 py-1
                      rounded-full bg-opacity-30 font-semibold capitalize bg-cyan-600">
                         Urgent
                         </div>
