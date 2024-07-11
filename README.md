@@ -70,6 +70,6 @@ Navigate through the various sections using the links provided in the navigation
 
 ---
 
-Feel free to explore, and don't hesitate to reach out if you have any questions or opportunities!
+Feel free to explore, and don't hesitate to reach out if you have any questions!
 
 Happy Job Hunting! 🌟
