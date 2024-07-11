@@ -41,11 +41,11 @@ Find quick links for easy navigation and contact details for any queries or assi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/suiyanga/job-portal.git
+    git clone https://github.com/suiyanga/MERIT.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd job-portal
+    cd MERIT
     ```
 3. Install the necessary dependencies:
     ```bash
