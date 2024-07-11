@@ -66,8 +66,10 @@ Navigate through the various sections using the links provided in the navigation
 
 ## Acknowledgements
 
-- Thank you for using the Job Portal Application. We hope it helps you find your dream job!
+- Thank you for using the Job Portal Application. I hope it helps you find your dream job!
 
 ---
 
-Explore and start your job search journey with our Job Portal Application! 🚀
+Feel free to explore, and don't hesitate to reach out if you have any questions or opportunities!
+
+Happy Job Hunting! 🌟
